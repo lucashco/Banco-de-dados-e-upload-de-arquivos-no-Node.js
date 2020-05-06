@@ -15,12 +15,18 @@ export default class CreateTransactions1588637304163
             default: 'uuid_generate_v4()',
           },
           {
-            name: 'value',
-            type: 'decimal',
+            name: 'title',
+            type: 'varchar',
           },
           {
             name: 'type',
             type: 'varchar',
+          },
+          {
+            name: 'value',
+            type: 'decimal',
+            precision: 10,
+            scale: 2,
           },
           {
             name: 'created_at',
