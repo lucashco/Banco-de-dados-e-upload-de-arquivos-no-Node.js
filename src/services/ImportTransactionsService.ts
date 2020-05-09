@@ -9,7 +9,7 @@ import TransactionsRepository from '../repositories/TransactionsRepository';
 
 interface CSVTransaction {
   title: string;
-  type: 'income' | 'oucome';
+  type: 'income' | 'outcome';
   value: number;
   category: string;
 }
